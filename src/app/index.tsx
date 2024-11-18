@@ -14,7 +14,6 @@ export default function Login() {
   const router = useRouter();
 
   const handleLogin = () => {
-    // Prossiga com o login
     router.push('/home');
   };
 

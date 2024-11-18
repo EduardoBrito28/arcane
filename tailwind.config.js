@@ -3,7 +3,10 @@ module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      primary: '#5A55FD',
+      secondary: '#D5D9FE'
+    },
   },
   plugins: [],
 }
